@@ -1,0 +1,26 @@
+.topNav{
+  padding-top: 20px;
+}
+
+.topNav > img{
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.nav{
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+.nav > a{
+  display: inline-block;
+  height: 36px;
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: .1em;
+  transition: .3s color;
+}
+.nav > a:hover{
+  color: #ae927b;
+}

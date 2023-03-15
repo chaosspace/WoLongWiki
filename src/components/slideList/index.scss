@@ -1,0 +1,29 @@
+.slideWrapper{
+  width: 700px;
+  display: flex;
+  padding-bottom: 10px;
+  flex-direction: column;align-items: center;
+}
+.slideView {
+  width: 100%;
+  overflow: hidden;
+  .slideList {
+    display: flex;
+    transition: 0.7s transform ease-in-out;
+  }
+}
+ul {
+  display: flex;
+  margin-top: 10px;
+  li {
+    list-style: none;
+    width: 40px;
+    height: 6px;
+    cursor: pointer;
+    margin: 0 4px;
+    background-color: #b3b3b3;
+    &.active {
+      background-color: #b0420c;
+    }
+  }
+}
