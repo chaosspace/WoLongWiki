@@ -64,7 +64,7 @@ export default function Home() {
           {navData.map((ele) => {
             return (
               <li key={ele.name}>
-                <a href={ele.url} target="_blank">
+                <a href={ele.url} target="_blank" rel="noreferrer">
                   {ele.name}
                 </a>
               </li>

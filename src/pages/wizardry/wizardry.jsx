@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react";
+
 
 export default function Wizardry() {
-  return (
-    <div>Wizardry</div>
-  )
+  return <div>
+    Wizardry
+
+  </div>;
 }

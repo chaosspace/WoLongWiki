@@ -1,0 +1,32 @@
+.character {
+  h2 {
+    text-align: center;
+    margin: 20px;
+    color: #b0430b;
+  }
+  .displayBox {
+    overflow: auto;
+    & > :not(div:first-child) {
+      margin-bottom: 40px;
+      &> span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      &> span:nth-last-child(1){
+        text-align: left;
+      }
+      &> span:nth-last-child(-n+2){
+        font-size: 12px;
+      }
+    }
+    & > div {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      & > span {
+        text-align: center;
+      }
+    }
+
+  }
+}
